@@ -6,8 +6,8 @@ const App = () => {
 	const [captchaValido, cambiarCaptchaValido] = useState(null);
 	const [usuarioValido, cambiarUsuarioValido] = useState(false);
 
-	const sitekey = "6Le2ZvsbAAAAAOmT8HLKZHJBHstIPXK_nLTCmj9a";
-	// const secretkey = "6Le2ZvsbAAAAAI-SM99jZ3oqj1ojcuLmzL3l-J_O";
+	// const sitekey = "";
+
 	const captcha = useRef(null);
 
 	const onChange = () => {
